@@ -1,0 +1,16 @@
+.bg-azul {
+  background-color: #e9f2ff;
+}
+
+table {
+  background-color: white;
+}
+
+th {
+  background-color: #0d6efd;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
