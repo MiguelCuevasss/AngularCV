@@ -5,10 +5,14 @@ import { Injectable } from '@angular/core';
 })
 export class DataService {
 
-  skills: string[] = ['Angular', 'TypeScript', 'CSS'];
+  jobs: string[] = [
+    'Frontend Developer',
+    'Backend Developer'
+  ];
 
-  jobs: string[] = ['Frontend Dev', 'Backend Dev', 'Fullstack Dev'];
-
-  constructor() { }
+  diplomas: string[] = [
+    'Angular Certificate',
+    'Python Certificate'
+  ];
 
 }
