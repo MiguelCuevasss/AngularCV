@@ -12,9 +12,10 @@ import { DataService } from '../../services/data';
 export class Diplomas {
 
   diplomas: string[] = [];
+  yearsExperience!: number;
 
   constructor(private dataService: DataService) {
     this.diplomas = this.dataService.diplomas;
+    this.yearsExperience = this.dataService.yearsExperience;
   }
-
 }

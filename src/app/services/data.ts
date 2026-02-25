@@ -15,4 +15,6 @@ export class DataService {
     'Python Certificate'
   ];
 
+  yearsExperience: number = 3.4567;
+  
 }
