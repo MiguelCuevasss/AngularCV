@@ -1,14 +1,15 @@
-import { Injectable } from '@angular/core';
+import { TestBed } from '@angular/core/testing';
+import { DataService } from './data';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class DataService {
+describe('Data', () => {
+  let service: DataService;
 
-  skills: string[] = ['Angular', 'TypeScript', 'CSS'];
+  beforeEach(() => {
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(DataService);
+  });
 
-  jobs: string[] = ['Frontend Dev', 'Backend Dev', 'Fullstack Dev'];
-
-  constructor() { }
-
-}
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+});
