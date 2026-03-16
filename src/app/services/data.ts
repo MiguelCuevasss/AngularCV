@@ -16,5 +16,4 @@ export class DataService {
   ];
 
   yearsExperience: number = 3.4567;
-
 }

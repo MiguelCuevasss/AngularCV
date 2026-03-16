@@ -1,0 +1,22 @@
+<section class="profile">
+
+  <h2>Professional Profile Example</h2>
+
+  <div *ngIf="user" class="profile-card">
+
+    <img [src]="user.picture.large" alt="profile picture">
+
+    <h3>
+      {{ user.name.first }} {{ user.name.last }}
+    </h3>
+
+    <p>Email: {{ user.email }}</p>
+
+    <p>
+      Location: {{ user.location.city }},
+      {{ user.location.country }}
+    </p>
+
+  </div>
+
+</section>
