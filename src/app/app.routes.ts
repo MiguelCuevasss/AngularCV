@@ -8,6 +8,8 @@ import { Buttons } from './components/buttons/buttons';
 import { Diplomas } from './components/diplomas/diplomas';
 import { Studies } from './components/studies/studies';
 
+import { Projects } from './components/projects/projects';
+
 export const routes: Routes = [
   { path: 'header', component: Header },
 
@@ -29,5 +31,11 @@ export const routes: Routes = [
     ]
   },
 
-  { path: '', redirectTo: 'header', pathMatch: 'full' }
+  { path: '', redirectTo: 'header', pathMatch: 'full' },
+
+  {
+    path: 'projects',
+    component: Projects
+  }
+
 ];
