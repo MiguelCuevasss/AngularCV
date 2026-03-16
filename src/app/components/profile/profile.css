@@ -1,0 +1,26 @@
+.profile {
+  text-align: center;
+  padding: 30px;
+}
+
+.profile-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  background: #f9f9f9;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.profile-card h3 {
+  margin: 10px 0;
+}
+
+.profile-card p {
+  margin: 5px 0;
+}
