@@ -1,0 +1,18 @@
+{
+  "/api/randomuser": {
+    "target": "https://randomuser.me",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/randomuser": ""
+    }
+  },
+  "/api/github": {
+    "target": "https://api.github.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/github": ""
+    }
+  }
+}

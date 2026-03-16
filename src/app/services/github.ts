@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class GithubService {
   private http = inject(HttpClient);
 
-  private apiUrl = 'https://api.github.com/users/MiguelCuevasss/repos';
+  private apiUrl = '/api/github/users/MiguelCuevasss/repos';
 
   getRepos(): Observable<any[]> {
     return this.http.get<any[]>(this.apiUrl);
