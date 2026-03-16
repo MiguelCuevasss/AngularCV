@@ -9,6 +9,7 @@ import { Diplomas } from './components/diplomas/diplomas';
 import { Studies } from './components/studies/studies';
 
 import { Projects } from './components/projects/projects';
+import { Profile } from './components/profile/profile';
 
 export const routes: Routes = [
   { path: 'header', component: Header },
@@ -36,6 +37,7 @@ export const routes: Routes = [
   {
     path: 'projects',
     component: Projects
-  }
+  },
+   { path: 'profile', component: Profile }
 
 ];
